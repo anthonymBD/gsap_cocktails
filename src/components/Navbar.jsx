@@ -27,7 +27,7 @@ const Navbar = () => {
           <img src="/images/logo.png" alt="logo" />
           <p>Velvet Pour</p>
         </a>
-
+        
         <ul>
           {navLinks.map((link) => (
             <li key={link.id}>
